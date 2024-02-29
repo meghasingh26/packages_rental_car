@@ -1,0 +1,103 @@
+
+.container{
+  position: static;
+  width: 600px;
+  background-color: rgb(207, 67, 67);
+  padding-top: 100px;
+  padding-bottom:100px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right:100px;
+  box-shadow: 30px 20px 20px #a0a099;
+  
+}
+.container1{
+  position:static;
+  width: 600px;
+  background-color: rgb(182, 22, 22);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right:100px;
+  box-shadow: 30px 20px 20px #a0a099;
+}
+.container2{
+  position: static;
+  width: 600px;
+  background-color: rgb(100, 12, 12);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right:100px;
+  box-shadow: 30px 20px 20px #a0a099;
+}
+.container3{
+  position: relative;
+  text-align: center;
+  color:black;
+}
+.textoverlap{
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  transform: translate(-50px,-50px);
+  font-size: 45px;
+  word-spacing: 30px;
+
+}
+.topimg{
+  
+  object-fit:cover;
+  float: inherit;
+
+}
+.image-content{
+  padding-right: 20px;
+  width: 280px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 40px;
+  float: left;
+  
+  
+}
+
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+button{
+
+  display: inline-block;
+  background-color: #cac721;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 300px;
+  font-size: 16px;
+  margin-right: 100px;
+  border-radius: 10px;
+  border-color: #cac721;
+}
+
+button:hover{
+  background-color: #e4e715;
+}
+.text-content{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+  
